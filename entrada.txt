@@ -1,0 +1,77 @@
+Declara Number b;
+Declara String c;
+Declara Number d;
+
+Declara Number f;
+Declara Number g;
+Declara String e;
+
+
+Funcion void main(){
+
+	f=2;
+ 	g=3;
+	Declara Number pa;
+	Declara Number pe;
+	pa=1;
+ 	pe=2;
+ 	Imp("La Suma es");
+	Imp(suma(pa,pe));
+  
+	e="holamundo";
+	imprimirVariableEnMain();
+	Declara Number a;
+	a=1;
+	b=1;
+	c="hola";
+	d = 3+a;
+	Imp("hola");
+	Imp(b);
+	Imp(a);
+	Imp(c);
+	Imp(d);
+	Imp("1+1");
+	if(a);
+
+	PARA(a=0;a<4;a=a+1){  
+
+  Imp("------for----------");
+	Imp(a);
+}
+
+mientras(b<4){
+  b=b+1;
+  Imp("mientras");
+}
+}
+
+
+
+
+Funcion Number suma(Number param1, Number param2){
+  retornar param1+param2;
+}
+
+
+Funcion void imprimirVariableEnMain(){
+  Imp(e);
+}
+
+Funcion void if(Number a){
+	Imp("entrado metodo if");
+	SI(a==1){
+		Imp("a==1");
+		Imp("hola2");
+		Si(a==1){
+			Imp("if 2");
+			Declara Number ku;
+			ku=1;
+			Imp(ku);
+				
+		}
+	}
+	sino{
+		Imp("sino");
+	}  
+}
+
